@@ -1,0 +1,16 @@
+{
+  "name": "Mirror",
+  "version": "1.0.0",
+  "description": "This mirror will give you the best concentration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "shiorian",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.7"
+  }
+}

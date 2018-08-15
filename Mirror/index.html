@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="index.css">
+  <title>鏡さん</title>
+</head>
+<body>
+  <div id="main_div" onclick="video_js.toggleScreen();">
+    <video id="video"></video>
+    <div id="img_div" style="display: none">
+      <img src="img/sexyzone.jpg">
+    </div>
+  </div>
+  <script>
+   var video_js = require('./video.js');
+  </script>
+</body>
+</html>
