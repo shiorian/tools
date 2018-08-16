@@ -8,9 +8,9 @@ let mainWindow;
 
 function createWindow(){
   // create mainWindow
-  mainWindow = new BrowserWindow({titleBarStyle: 'hidden', width: 300, height: 200, alwaysOnTop: true});
+  mainWindow = new BrowserWindow({titleBarStyle: 'hidden', width: 300, height: 250, x: 80, y: 750, alwaysOnTop: true});
   mainWindow.loadURL('file://' + __dirname + '/index.html');
-  mainWindow.webContents.openDevTools();
+  //mainWindow.webContents.openDevTools();
   mainWindow.on('closed', function(){
     mainWindow = null;
   });
